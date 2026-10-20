@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment variables (contains API keys)
+.env
+backend_api/.env
+backend_api/.env.*
+!backend_api/.env.example
+
+# Output files (CSV data)
+phase1_apollo/output/*.csv
+phase2_enrichment/output/*.csv
+phase3_messages/output/*.csv
+
+# Keep output directories but ignore CSVs
+!phase1_apollo/output/.gitkeep
+!phase2_enrichment/output/.gitkeep
+!phase3_messages/output/.gitkeep
+
+# Checkpoint files (for resume functionality)
+phase2_enrichment/checkpoints/
+
+# Temp files
+phase3_messages/tmp*.json
+test_request.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+test_*.py
+notes.txt
+
+# Frontend (Node/React)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.production
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Saved campaign templates (customer-specific)
+phase3_messages/templates/saved/

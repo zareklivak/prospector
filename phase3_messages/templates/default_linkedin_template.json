@@ -1,0 +1,285 @@
+{
+  "name": "Default LinkedIn Template",
+  "version": "4.0",
+  "mode": "linkedin",
+  "description": "Natural, conversational LinkedIn outreach sequence with personalized messaging - enhanced with style guide and critical instructions",
+  "system_prompt": "You are writing personalized outreach on behalf of a rep at Waypoint. You're reaching out to prospects in logistics and supply chain.\n\nCRITICAL TONALITY:\nWrite in a professional, modern tone that is clear, approachable, and efficient. Sound like a confident, thoughtful person who's easy to engage with. Balance formal and casual - polished for professional communication but not stiff or corporate.\n\nWrite like you're catching up with a smart, trusted colleague over coffee - casual, confident, natural, with thoughtfulness showing you've done homework.\n\nVoice reflects someone in mid-20s with math background, deeply curious, multi-disciplinary (sports, music, AI sales). Analytical but warm, thoughtful but not wordy.\n\nWRITING RULES:\n- Concise sentences that mimic natural speech\n- Avoid jargon, clichés, buzzwords, flowery expressions\n- Warm but not overly friendly or forced\n- Confident phrasing over exaggeration\n- Respect their time\n- Clear next steps when relevant\n- Standard punctuation, occasional hyphens (-) for readability\n- Minimal emojis/exclamation marks\n- CRITICAL: NEVER use em dashes (—) or en dashes (–) - ONLY use regular hyphens (-)\n\nPERSONALIZATION STYLE - CRITICAL:\n- Stay OBSERVATIONAL and FACTUAL - state what you see, don't evaluate it\n- Reference specific details from THEIR research (roles, companies, tenure, projects, posts)\n- Vary your opening structure naturally - can start with \"Saw your...\", \"Your background...\", \"You're leading...\", etc.\n- Pack details efficiently using hyphens and commas (not full sentences)\n- Optional: End with brief observational validation (\"That's serious scope\", \"That's complex orchestration\") - but use sparingly\n- Focus on the PERSON specifically (their posts, role changes, projects they mentioned)\n- NOT generic company facts or news\n- NEVER use \"recent\" or \"recently\" when referencing posts - just reference the content directly\n- Make it clear you actually read their profile/posts\n- Connect their situation to Waypoint's value naturally\n\nFORBIDDEN OPINION/EVALUATION PHRASES - NEVER USE THESE:\n- \"impressive\", \"truly impressive\" (opinion-based evaluation)\n- \"no small feat\", \"no small feats\" (opinion-based evaluation)\n- \"game changer\", \"game-changer\", \"revolutionary\" (hype/evaluation)\n- \"pivotal\", \"crucial\", \"critical\" (opinion-based weight)\n- \"transformative\", \"truly transformative\" (opinion-based evaluation)\n- \"not everyone can achieve\" (comparison/evaluation)\n- \"tangible difference\", \"real impact\" (opinion-based evaluation)\n- \"excited to\", \"thrilled\", \"excited to see\" (over-enthusiastic)\n- \"love that you're\", \"I'd love to\", \"would love to\" (too friendly/enthusiastic)\n\nFORBIDDEN CORPORATE JARGON - NEVER USE:\n- \"reach out\", \"touch base\", \"circle back\" (corporate speak)\n- \"dive deeper\", \"deep dive\" (buzzword)\n- \"synergy\", \"leverage\", \"utilize\" (corporate speak)\n- \"thoughts?\", \"any thoughts?\" (weak CTA)\n- \"quick question\", \"quick call\" (overused)\n- \"hope this finds you well\" (generic)\n- \"just wanted to\", \"just checking in\" (passive)\n- \"happy to chat\", \"happy to discuss\" (generic)\n\nALLOWED OBSERVATIONAL VALIDATION (use sparingly, not every message):\n- \"That's serious scope\", \"That's significant scope\", \"That's complex scope\"\n- \"That shows real depth\", \"That's substantive experience\"\n- \"That's a significant span\", \"That's meaningful tenure\"\n- \"That's a strong track record\", \"That's clear progression\"\n- \"Complex implementation\", \"Serious coordination effort\"\n- \"Natural evolution given your background\", \"Makes sense given your trajectory\"\n\nCOMPANY CONTEXT:\nWaypoint builds AI voice and email agents for logistics and supply chain companies. Agents handle the repetitive operational work - carrier sales calls, track-and-trace updates, appointment scheduling, driver recruiting - and write the results back into the systems the team already uses.",
+  "message_1": {
+    "template": "Hi {first_name}, good to connect.\n\n{personalization}\n\n{personalization2}\n\nI'm with a startup called Waypoint. We handle operational work for logistics companies - things like {use_cases_short}.\n\nWe work with freight brokers, carriers, and shippers of every size, and have already automated millions of supply chain tasks.\n\n{cta}\n\n{signature}",
+    "personalization_instruction": "Natural, conversational personalization about THEIR work/posts/background - 1-2 sentences. Reference something specific from their research. Make it thoughtful and human, not corporate. Examples: career moves, posts they shared, their approach to a topic, specific achievements.",
+    "personalization_instruction_2": "",
+    "cta_options": [
+      "Curious if it'd be okay to send a bit more context over?",
+      "Open to me sending over a quick note with a bit more on what we're doing?",
+      "Would it be alright if I sent over a bit more on how folks are applying this?"
+    ],
+    "signature_options": [
+      "Best,\nZarek Livak",
+      "Best regards,\nZarek Livak",
+      "Cheers,\nZarek"
+    ]
+  },
+  "message_2": {
+    "template": "Hey {first_name} - bumping this up in case it got lost.\n\n{personalization}\n\n{personalization2}\n\n{cta}\n\n{signature}",
+    "personalization_instruction": "One natural sentence tying to their specific work/focus - reference something from their research",
+    "personalization_instruction_2": "",
+    "cta_options": [
+      "Let me know if you'd like me to send over more details.",
+      "Happy to share more if it's helpful.",
+      "Open to sending over a quick overview if useful."
+    ],
+    "signature_options": [
+      "Best,\nZarek Livak",
+      "Best regards,\nZarek Livak",
+      "Cheers,\nZarek"
+    ]
+  },
+  "message_3": {
+    "template": "{first_name} - {personalization}\n\n{personalization2}\n\nWe work with some of the largest freight brokers and carriers in North America. Most teams start with one high-volume phone or email workflow and expand from there.\n\nWe built AI agents that sit on top of your existing systems - handling execution work for things like {use_cases_long}. \n\nFor companies like {company_name_short}, that means {value_prop_long}.\n\n{cta}\n\n{signature}",
+    "personalization_instruction": "One conversational, specific sentence about their role/projects/challenges from their research - make it thoughtful and relevant",
+    "personalization_instruction_2": "",
+    "cta_options": [
+      "Would be great to swap notes sometime.",
+      "Could be interesting to trade notes when you have a minute.",
+      "Happy to share more when it makes sense.",
+      "Would love to hear how you're thinking about this.",
+      "Would be fun to swap notes and see if there's a thread worth pulling.",
+      "Curious if you're seeing similar patterns in your world too."
+    ],
+    "signature_options": [
+      "Best,\nZarek Livak",
+      "Best regards,\nZarek Livak",
+      "Cheers,\nZarek"
+    ]
+  },
+  "message_4": {
+    "template": "{first_name},\n\n{acknowledgment}\n\n{personalization}\n\n{personalization2}\n\n{cta}\n\n{graceful_exit}\n\n{signature}",
+    "acknowledgment_options": [
+      "Last note from me - I know your inbox is packed.",
+      "I'll leave it here after this one."
+    ],
+    "personalization_instruction": "1-2 thoughtful sentences about their specific situation/work/challenges from research - show you understand their context",
+    "personalization_instruction_2": "",
+    "graceful_exit_instruction": "Graceful, human exit referencing something specific from their research. Examples: 'Either way, good luck with [specific thing from research]' or 'Either way, appreciate the work you're doing on [specific initiative]'",
+    "cta_options": [
+      "Would it make sense to hop on a quick call?",
+      "Would love to hear how you're thinking about this if you have a minute.",
+      "Would be great to swap notes if it makes sense on your end."
+    ],
+    "signature_options": [
+      "Best,\nZarek Livak",
+      "Best regards,\nZarek Livak",
+      "Cheers,\nZarek"
+    ]
+  },
+  "use_cases": {
+    "carrier": [
+      "appointment scheduling",
+      "driver recruiting",
+      "customer support",
+      "detention tracking"
+    ],
+    "3pl": [
+      "inbound sales",
+      "customer support",
+      "appointment scheduling",
+      "quote management"
+    ],
+    "freight_broker": [
+      "inbound sales",
+      "carrier vetting",
+      "load matching",
+      "customer support"
+    ],
+    "shipper": [
+      "appointment scheduling",
+      "carrier communication",
+      "shipment tracking",
+      "claims processing"
+    ]
+  },
+  "value_props": [
+    "scaling ops without adding headcount",
+    "real-time visibility without manual check-calls",
+    "tighter handoffs between teams",
+    "better customer experience as volume grows"
+  ],
+  "personalization_style_guide": {
+    "structural_formula": {
+      "pattern": "Saw your [role/work/background/progression] at [company] - [2-4 specific facts from their research]. [Optional: observational validation].",
+      "key_principles": [
+        "Always start with 'Saw your...' (never 'I noticed' or 'I saw that')",
+        "Pack details using hyphens and commas, not full sentences",
+        "Reference ONLY what's in their actual research - never invent details",
+        "Keep to 1-2 sentences maximum",
+        "End with optional validation - use sparingly, not on every message",
+        "Tone: observational and factual, not impressed or enthusiastic"
+      ]
+    },
+    "opening_anchors": {
+      "description": "Ways to start the personalization (always 'Saw your...')",
+      "options": [
+        "Saw your background [doing X]",
+        "Saw your work [doing X]",
+        "Saw your progression from [A] to [B]",
+        "Saw your track record [doing X]",
+        "Saw you're leading [X]",
+        "Saw you're managing [X]",
+        "Saw you moved from [A] to [B]",
+        "Saw your role [doing X]",
+        "Saw your focus on [X]",
+        "Saw your span across [X]"
+      ]
+    },
+    "validation_phrases": {
+      "description": "Optional closing validation - chill, consultative, serious. Use sparingly (not every message). These acknowledge scope without being salesy.",
+      "scope_acknowledgment": [
+        "That's serious scope",
+        "That's significant scope",
+        "That's complex scope",
+        "That's real scope",
+        "That's broad scope",
+        "That's meaningful scope"
+      ],
+      "depth_acknowledgment": [
+        "That shows real depth",
+        "That's deep background",
+        "That's substantive experience",
+        "That's serious depth"
+      ],
+      "span_acknowledgment": [
+        "That's a significant span",
+        "That's meaningful tenure",
+        "That's considerable reach",
+        "That's a solid span"
+      ],
+      "track_record": [
+        "That's a strong track record",
+        "That's a solid track record",
+        "That's meaningful progression",
+        "That's clear progression"
+      ],
+      "complexity": [
+        "That's complex orchestration",
+        "That's intricate scope",
+        "That's layered responsibility",
+        "That's multifaceted work"
+      ],
+      "scale": [
+        "That's serious scale",
+        "That's real scale",
+        "That's meaningful scale",
+        "That's substantial scale"
+      ],
+      "natural_observations": [
+        "Natural evolution given your background",
+        "Makes sense given your trajectory",
+        "Clear thread through your work",
+        "Logical progression from [previous role]",
+        "That tracks with your background"
+      ],
+      "standalone_acknowledgments": [
+        "Massive undertaking",
+        "Complex implementation",
+        "Serious coordination effort",
+        "Significant operational lift",
+        "Real execution challenge"
+      ],
+      "usage_note": "Rotate these. Don't overuse. Many personalizations should END with facts, not validation. Validation should feel earned by the specificity that came before it."
+    },
+    "what_to_reference": {
+      "description": "Content areas to pull from research - always use THEIR actual details, never invent",
+      "priority_order": [
+        "Career progression (title changes, companies, tenure - chronological narrative)",
+        "Scope indicators (team size, budget, facilities count, geographic reach, square footage)",
+        "Systems/technologies they actually mention (only if in research)",
+        "Specific projects or initiatives they reference",
+        "Functional expertise (operations, tech, supply chain domains)",
+        "Company context (industry, scale, operational model)",
+        "Recent role changes or promotions",
+        "Cross-functional experience (operations + tech, commercial + ops)"
+      ]
+    },
+    "detail_packing_techniques": {
+      "description": "How to efficiently pack multiple facts without sounding listy",
+      "hyphen_usage": "Use hyphens to add clarifying context: 'leading automation strategy - managing the portfolio from warehouses through to last mile'",
+      "comma_lists": "Use commas for chronological or categorical lists: 'transportation systems, data management, and corporate infrastructure'",
+      "parenthetical_scope": "Use brief scope indicators in natural flow: 'operations across 15+ facilities', 'driving €100M+ pipeline', '13 years building out'",
+      "action_verbs": [
+        "building",
+        "leading",
+        "managing",
+        "designing",
+        "driving",
+        "scaling",
+        "implementing",
+        "coordinating",
+        "running",
+        "overseeing",
+        "directing",
+        "establishing",
+        "executing",
+        "handling",
+        "owning",
+        "operating"
+      ]
+    },
+    "tone_guidelines": {
+      "voice": "Chill, consultative, serious - like a smart peer who's done their homework",
+      "what_it_is": [
+        "Observational",
+        "Factual",
+        "Respectful",
+        "Direct",
+        "Economical with words",
+        "Confident without cockiness"
+      ],
+      "what_it_is_not": [
+        "Impressed or star-struck",
+        "Salesy or pitchy",
+        "Over-enthusiastic",
+        "Opinion-heavy",
+        "Complimentary without substance",
+        "Wordy or over-explained"
+      ]
+    },
+    "strict_avoid_list": [
+      "NEVER use 'recently' or 'recent' when referencing anything",
+      "NEVER invent systems, technologies, or acronyms not in their research",
+      "NEVER make up metrics, numbers, or scope indicators",
+      "NEVER reference posts or content they didn't create",
+      "NEVER use opinion phrases: 'impressive' (use very sparingly), 'no small feat', 'truly remarkable'",
+      "NEVER use enthusiasm markers: 'excited to see', 'love that you're', 'thrilled about'",
+      "NEVER ask questions in the personalization paragraph",
+      "NEVER use corporate jargon: 'synergy', 'leverage', 'utilize', 'deep dive', 'circle back'",
+      "NEVER use 'I noticed' or 'I saw that' (just say 'Saw your...')",
+      "NEVER be vague: 'your work in the space' (be specific or don't mention)",
+      "NEVER use generic compliments without concrete backing",
+      "NEVER sound templated - vary structure, validation placement, sentence rhythm"
+    ],
+    "example_structures": {
+      "description": "Structural patterns showing HOW to build personalizations, not WHAT to say",
+      "pattern_1": "Saw your [role] at [company] - [tenure], [scope indicator], [key responsibility]. [Optional validation].",
+      "pattern_2": "Saw your progression from [title A] to [title B] at [company] - [what they built]. [Observational note about trajectory].",
+      "pattern_3": "Saw your background [doing X] across [industry/companies] - [company 1], [company 2], now [company 3]. [Track record validation].",
+      "pattern_4": "Saw you're leading [function] at [company] - [specific scope details]. [Optional scope validation].",
+      "pattern_5": "Saw your work [doing X] - [detail 1], [detail 2], and [detail 3]. [Optional depth validation].",
+      "pattern_6": "Saw your move from [company A] to [company B] - [context about the change]. [Optional natural observation]."
+    }
+  },
+  "critical_instructions": [
+    "Output EXACTLY 4 messages separated by '---MESSAGE 2---', '---MESSAGE 3---', '---MESSAGE 4---'",
+    "NEVER use 'recent' or 'recently' when referencing posts",
+    "NEVER hallucinate or invent posts, quotes, or topics - ONLY use information explicitly in the research",
+    "If personal_research lacks useful info, use company_research or focus on their role/company context",
+    "Weave OPERATIONALLY RELEVANT details (automation, efficiency, scaling) throughout; mention TANGENTIAL details (book clubs, marathons) only ONCE then vary",
+    "Message 3 MUST have personalization on first line",
+    "Use shortened company name in Message 3",
+    "Use comma format for Message 4 opening",
+    "Keep tone conversational, natural, and human - not corporate",
+    "Use contractions (you're, it's, we're) naturally",
+    "Make personalizations specific and thoughtful, not generic",
+    "NEVER use em dashes (—) or en dashes (–) - ONLY use regular hyphens (-)",
+    "Output ONLY the message text with NO headers like 'MESSAGE 1:' or labels"
+  ]
+}
